@@ -1,0 +1,20 @@
+#!/bin/bash
+
+user=$(whoami)
+
+where_am_I=$(pwd)
+
+date=$(date)
+
+sleep 3
+
+echo "$user"
+
+sleep 3
+
+echo "$where_am_I"
+
+sleep 3
+
+echo "date"
+
